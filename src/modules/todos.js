@@ -1,5 +1,5 @@
 export default class Todo {
-  constructor(description, completed, index) {
+  constructor(description) {
     this.description = description;
     this.completed = false;
     this.index = null;
